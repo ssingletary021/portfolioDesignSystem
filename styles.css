@@ -63,3 +63,21 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* ------------------------ */
+/* Utility classes      */
+/* ------------------------ */
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.container {
+  padding: 0 2em;
+  max-width: 80rem;
+  margin: 0 auto;
+}
