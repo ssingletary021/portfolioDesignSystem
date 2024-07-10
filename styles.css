@@ -44,6 +44,8 @@ ol {
 body {
   line-height: 1.5;
   min-height: 100vh;
+  max-width: 960px;
+  margin: auto;
 }
 
 /* make images easier to work with */
@@ -83,6 +85,7 @@ select {
 
 .flex {
   display: flex;
+  justify-content: center;
 }
 
 .grid {
@@ -93,6 +96,9 @@ select {
   padding: 0 2em;
   max-width: 80rem;
   margin: 0 auto;
+}
+.color-container {
+  justify-content: space-between;
 }
 
 /* Colors */
