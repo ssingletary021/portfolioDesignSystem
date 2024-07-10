@@ -127,3 +127,10 @@ select {
   padding: 3rem 1rem 1rem;
   border: 1px solid white;
 }
+
+header {
+  padding: 20px;
+}
+.logo {
+  width: 200px;
+}
