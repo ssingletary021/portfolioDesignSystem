@@ -96,6 +96,7 @@ select {
   padding: 0 2em;
   max-width: 80rem;
   margin: 0 auto;
+  border: 1px solid black;
 }
 .color-container {
   justify-content: space-between;
@@ -124,6 +125,9 @@ select {
 .text-black {
   color: hsl(var(--clr-black));
 }
+.text-accent {
+  color: hsl(var(--clr-scarlet-apple));
+}
 .text-white {
   color: hsl(var(--clr-white));
 }
@@ -135,7 +139,9 @@ select {
 }
 
 header {
-  padding: 20px;
+  background: url("./assets/images/shamel\ jones\ \(2\).png") center no-repeat;
+  background-size: contain;
+  padding: 60px 20px;
 }
 .logo {
   width: 200px;
